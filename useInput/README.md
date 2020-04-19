@@ -1,5 +1,6 @@
 # Usage
 
+## useInput
 ```js
 import useInput from "@nooks/use-input"
 const App = () => {
@@ -12,3 +13,4 @@ const App = () => {
     </div>
   );
 };
+```

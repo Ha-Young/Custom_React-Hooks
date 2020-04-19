@@ -5,7 +5,7 @@ export const useConfirm = (message = "", onConfirm, onCancel) => {
   if (onCancel && typeof onCancel !== "function") {
     return;
   }
-  const confirmAction = () => {
+  const confirmAction = () => {    
     if (confirm(message)) {
       onConfirm();
     } else {
