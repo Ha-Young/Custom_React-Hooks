@@ -1,0 +1,1 @@
+export {useLockScroll as default} from "./useLockScroll";
