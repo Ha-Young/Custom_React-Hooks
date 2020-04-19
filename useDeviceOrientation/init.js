@@ -1,0 +1,1 @@
+export { useDeviceOrientation as default } from "./useDeviceOrientation";
